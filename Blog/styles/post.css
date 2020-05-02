@@ -1,0 +1,84 @@
+#postcard {
+  display: flex;
+  flex-direction: column;
+
+  width: 60vw;
+  height: 100%;
+
+  background-color: #ffffff;
+
+  margin: 0 0 0 150px;
+}
+
+#postbody {
+  background-color: grey;
+}
+#postdouble {
+  display: flex;
+  flex-direction: row;
+}
+
+.postimage {
+  width: 60vw;
+  height: 60vh;
+}
+
+.header {
+  margin: 20px;
+  text-align: center;
+  font-size: 1.5em;
+}
+.avatar {
+  vertical-align: middle;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.about {
+  margin: 20px;
+  font-size: 0.9em;
+}
+.aboutinfo {
+  font-weight: bold;
+  font-size: 2em;
+}
+
+.sharinghead {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  margin: auto;
+}
+.sharingpost {
+  padding: 20px;
+  font-size: 30px;
+  width: 3vw;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+.facebook {
+  background: #3b5998;
+  color: white;
+}
+.instagram {
+  background: #125688;
+  color: white;
+}
+.linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.twitter {
+  background: #55acee;
+  color: white;
+}
+.link {
+  color: blue;
+}

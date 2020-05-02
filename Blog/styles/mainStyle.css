@@ -1,0 +1,58 @@
+@import url("./Card.css");
+@import url("./navBar.css");
+@import url("./post.css");
+@import url("./footer.css");
+@import url("./media.css");
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+}
+.container {
+  display: grid;
+
+  margin: auto;
+
+  grid-template-columns: repeat(3, 1fr);
+
+  grid-template-areas:
+    " hd hd hd"
+    " main main main"
+    " ft ft ft";
+}
+
+#header {
+  grid-area: hd;
+  text-align: center;
+  font-size: 2em;
+}
+#sideBar {
+  grid-area: sd;
+  background-color: #ededed;
+  width: 100%;
+}
+#main {
+  display: grid;
+
+  grid-template-columns: repeat(auto-fit, minmax(40vh, 1fr));
+
+  grid-gap: 8vh;
+
+  grid-area: main;
+  background-color: #ffffff;
+  /* margin-bottom: 10vh;
+    margin-left: 10vh; */
+  margin: 5vh 0 10vh 10vh;
+}
+#foot {
+  height: 100%;
+  grid-area: ft;
+
+  background-color: #080a3c;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
